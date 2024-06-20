@@ -1,0 +1,57 @@
+p{
+    color:darkblue;
+    text-align:right;
+   font-family:cursive;
+   font-size:16px;
+   line-height: normal;
+   text-transform:capitalize;
+}
+
+
+#headingone{
+    color:darkblue
+}
+
+#headingtwo{
+    color:aquamarine
+}
+
+.class1{
+    color:chartreuse
+
+}
+#box{
+    background-color: blue;
+}
+h2,h3{
+    color: darkgoldenrod;
+}
+h1{
+    color:crimson;
+    text-align: center;
+    text-decoration:blue underline;
+    font-weight:dark;
+    font-family: ;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    font-family:'Times New Roman', Times, serif
+}
+
+div{
+    height: 100px;
+    width:100px;
+    background-color:green;
+    border-radius:50px ;
+    display:inline;
+    
+}
+
+button{
+    color:crimson;
+    display:block;
+}

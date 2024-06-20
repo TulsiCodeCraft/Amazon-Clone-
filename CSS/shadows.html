@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows In css</title>
+    <style>
+        :root {
+            --primary-color: brown;
+            --custom-width: 330px;
+        }
+
+        .container {
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            background-color: aquamarine;
+            background-image: url(img-2.png);
+            background-size: cover;
+            width: var(--custom-width);
+            height: 330px;
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+
+
+
+           /* box-shadow: -10px -15px var(--primary-color);
+            box-shadow: 10px 10px 10px brown;
+    box-shadow:10px 10px 10px 2px brown ;
+    box-shadow: inset 10px 15px 10px 5px red;
+            box-shadow: 10px 15px red, 15px 8px green;*/
+        }
+        #head1{
+/*text-shadow: 12px 13px 2px green;
+text-shadow: yellow 12px 13px 2px;
+text-shadow: white 12px 13px;*/
+text-shadow: 12px 13px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h2 id="head1">Welcome to photo</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas doloremque, neque facilis laudantium
+                placeat vel nobis. Quidem repellat soluta obcaecati numquam dicta eius atque, id, nobis ea voluptates ab
+                esse!</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

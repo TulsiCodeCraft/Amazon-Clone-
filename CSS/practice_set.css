@@ -1,0 +1,44 @@
+.navbar{
+height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:crimson
+   
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    color: red;
+
+}
+
+#outer{
+    height: 500px;
+    width: 700px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 250px;
+    width: 250px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
